@@ -61,7 +61,7 @@ func main() {
 	router := mux.NewRouter()
 	sub := router.PathPrefix("/workload").Subrouter()
 	sub.Handle("/get", handler.Get()).Methods(http.MethodPost)
-	sub.Handle("/create", handler.Put()).Methods(http.MethodPut)
+	sub.Handle("/create", handler.Put()).Methods(http.MethodPost)
 	sub.Handle("/update", handler.Update()).Methods(http.MethodPost)
 	sub.Handle("/delete", handler.Delete()).Methods(http.MethodDelete)
 

@@ -24,10 +24,10 @@ type Response struct {
 
 // Result blablab
 type Result struct {
-	Success bool
+	Success bool      `json:"success"`
 	Message string    `json:"message"`
-	Project []Project `json:"projects,omitempty"`
-	Work    []Work    `json:"works,omitempty"`
+	Project []Project `json:"project,omitempty"`
+	Work    []Work    `json:"work,omitempty"`
 	Status  []Status  `json:"status,omitempty"`
 	Person  []Person  `json:"person,omitempty"`
 }
