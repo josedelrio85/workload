@@ -1,4 +1,4 @@
-module github.com/bysidecar/workload
+module github.com/josedelrio85/workload
 
 go 1.14
 

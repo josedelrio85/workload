@@ -6,8 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	workload "github.com/bysidecar/workload/pkg"
 	"github.com/gorilla/mux"
+	workload "github.com/josedelrio85/workload/pkg"
 	"github.com/rs/cors"
 )
 

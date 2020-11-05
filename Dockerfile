@@ -8,8 +8,8 @@ RUN apk update && apk add --no-cache \
 # && update-ca-certificates
 
 # Add source files and set the proper work dir
-COPY . $GOPATH/src/github.com/bysidecar/workload/
-WORKDIR $GOPATH/src/github.com/bysidecar/workload/cmd
+COPY . $GOPATH/src/github.com/josedelrio85/workload/
+WORKDIR $GOPATH/src/github.com/josedelrio85/workload/cmd
 
 
 # Enable Go modules
