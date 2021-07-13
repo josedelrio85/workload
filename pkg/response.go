@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"runtime"
 
-	voalarm "github.com/bysidecar/voalarm"
+	voalarm "github.com/josedelrio85/voalarm"
 )
 
 // Response blablab
